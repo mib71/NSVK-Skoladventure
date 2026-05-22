@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "North Workshop",
+    "description": "The northern part of the workshop. It is messy in here. You can see a power outlet and a locked door to the east.",
+    "exits": {
+      "S": 5
+    }
+  },
+  {
+    "id": 2,
+    "name": "Workshop Corridor",
+    "description": "You are in the corridor outside the workshop. There is drill dust on the floor.",
+    "exits": {
+      "W": 1,
+      "E": 3
+    }
+  },
+  {
+    "id": 3,
+    "name": "Corridor Junction",
+    "description": "You are at a bend in the corridor.",
+    "exits": {
+      "W": 2,
+      "S": 7
+    }
+  },
+  {
+    "id": 4,
+    "name": "Empty Classroom",
+    "description": "An empty and desolate classroom. The desks are completely bare.",
+    "exits": {
+      "S": 8
+    }
+  },
+  {
+    "id": 5,
+    "name": "South Workshop",
+    "description": "The southern part of the workshop. You can see a large cupboard here. A heavy locked door leads out.",
+    "exits": {
+      "N": 1
+    }
+  },
+  {
+    "id": 6,
+    "name": "Staff Room",
+    "description": "The teachers' smoking room. The air is stale and heavy.",
+    "exits": {
+      "E": 7
+    }
+  },
+  {
+    "id": 7,
+    "name": "Corridor with Lockers",
+    "description": "A corridor with a door to the west. There are several storage lockers here, one without a lock.",
+    "exits": {
+      "N": 3,
+      "E": 8,
+      "S": 9
+    }
+  },
+  {
+    "id": 8,
+    "name": "East End of Corridor",
+    "description": "The eastern end of the corridor.",
+    "exits": {
+      "W": 7,
+      "N": 4
+    }
+  },
+  {
+    "id": 9,
+    "name": "Dusty Classroom",
+    "description": "A dusty classroom. The teacher's desk is half burnt.",
+    "exits": {
+      "N": 7
+    }
+  }
+]
