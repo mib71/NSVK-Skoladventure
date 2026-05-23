@@ -1,6 +1,6 @@
-﻿using AdvTest;
-using AdvTest.Helpers;
-using AdvTest.Models;
+﻿using SkolAdventure;
+using SkolAdventure.Helpers;
+using SkolAdventure.Models;
 
 string? input;
 
@@ -21,14 +21,14 @@ catch (PlatformNotSupportedException)
 Console.ForegroundColor = ConsoleColor.Cyan;
 
 // Title screen fixed width, no word wrap by design. :-)
-Console.WriteLine("********************************************************************************");
-Console.WriteLine("*                                                                              *");
-Console.WriteLine("*         YOU HAVE BEEN LOCKED IN BY THE SCHOOL'S CHEMISTRY TEACHER.           *");
-Console.WriteLine("*          HE HAS GONE MAD AND IS CONDUCTING DANGEROUS EXPERIMENTS.            *");
-Console.WriteLine("*                   THE SCHOOL COULD EXPLODE AT ANY MOMENT.                    *");
-Console.WriteLine("*                   YOU MUST ESCAPE BEFORE IT IS TOO LATE!                     *");
-Console.WriteLine("*                                                                              *");
-Console.WriteLine("********************************************************************************");
+Console.WriteLine("*******************************************************************************");
+Console.WriteLine("*                                                                             *");
+Console.WriteLine("*         YOU HAVE BEEN LOCKED IN BY THE SCHOOL'S CHEMISTRY TEACHER.          *");
+Console.WriteLine("*          HE HAS GONE MAD AND IS CONDUCTING DANGEROUS EXPERIMENTS.           *");
+Console.WriteLine("*                   THE SCHOOL COULD EXPLODE AT ANY MOMENT.                   *");
+Console.WriteLine("*                   YOU MUST ESCAPE BEFORE IT IS TOO LATE!                    *");
+Console.WriteLine("*                                                                             *");
+Console.WriteLine("*******************************************************************************");
 Console.WriteLine();
 
 GameState gameState = InitGame.Create();

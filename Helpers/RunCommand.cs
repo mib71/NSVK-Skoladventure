@@ -1,6 +1,6 @@
-﻿using AdvTest.Models;
+﻿using SkolAdventure.Models;
 
-namespace AdvTest.Helpers;
+namespace SkolAdventure.Helpers;
 
 public static class RunCommand
 {

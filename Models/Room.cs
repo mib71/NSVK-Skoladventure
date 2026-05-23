@@ -1,4 +1,4 @@
-﻿namespace AdvTest.Models;
+﻿namespace SkolAdventure.Models;
 
 /// <summary>
 /// Represents a cardinal direction for navigation between rooms.

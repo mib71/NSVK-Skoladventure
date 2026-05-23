@@ -1,4 +1,4 @@
-﻿namespace AdvTest.Models;
+﻿namespace SkolAdventure.Models;
 
 /// <summary>
 /// Represents the current state of the game, including the player and all rooms.

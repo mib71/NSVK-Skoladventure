@@ -1,4 +1,4 @@
-﻿namespace AdvTest.Models;
+﻿namespace SkolAdventure.Models;
 
 /// <summary>
 /// Represents the player in the adventure game.

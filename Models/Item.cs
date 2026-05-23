@@ -1,4 +1,4 @@
-﻿namespace AdvTest.Models;
+﻿namespace SkolAdventure.Models;
 
 /// <summary>
 /// Represents an item in the adventure game world.

@@ -1,8 +1,8 @@
-﻿using AdvTest.Models;
+﻿using SkolAdventure.Models;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace AdvTest;
+namespace SkolAdventure;
 
 public static class InitGame
 {

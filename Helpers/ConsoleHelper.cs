@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace AdvTest.Helpers;
+namespace SkolAdventure.Helpers;
 
 /// <summary>
 /// Helper methods for console output formatting.
