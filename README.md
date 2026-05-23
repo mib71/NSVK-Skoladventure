@@ -33,7 +33,7 @@ any moment. You have 40 moves to escape before it is too late.
 
 Original game: Jon Wätte & Mikael Gajecki, NSVK 1985  
 Original magazines available at: https://www.samdal.com/svdocuments.htm  
-Port to C#: 2026
+Port to C#: 2026 MiB
 
 ## Built With
 
