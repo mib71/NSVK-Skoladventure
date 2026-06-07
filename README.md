@@ -29,13 +29,18 @@ any moment. You have 40 moves to escape before it is too late.
 - `read [item]` — Read an item
 - `q` — Quit
 
+## Built With
+
+- .NET 10
+- C# 12
+
 ## Credits
 
 Original game: Jon Wätte & Mikael Gajecki, NSVK 1985  
 Original magazines available at: https://www.samdal.com/svdocuments.htm  
 Port to C#: 2026 MiB
 
-## Built With
-
-- .NET 10
-- C# 12
+### Other ports
+[Jonathan David Gilbert](https://github.com/logiclrd/QBX/blob/main/Samples/SKOLADV.BAS) — 
+Faithful transcription to QuickBASIC with English localization, preserving the original 
+line numbers and single-letter variable names.
