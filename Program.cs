@@ -11,7 +11,7 @@ try
     Console.SetBufferSize(80, 1000);
 #pragma warning restore CA1416 // Validate platform compatibility
 }
-catch (PlatformNotSupportedException)
+catch (Exception ex) when (ex is PlatformNotSupportedException or ArgumentOutOfRangeException)
 {
     Console.WriteLine("For best experience, resize your terminal to 80x25.");
     Console.WriteLine("Press any key to continue...");
