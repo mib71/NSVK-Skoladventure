@@ -4,20 +4,6 @@ using SkolAdventure.Models;
 
 string? input;
 
-try
-{
-#pragma warning disable CA1416 // Validate platform compatibility
-    Console.SetWindowSize(80, 25);
-    Console.SetBufferSize(80, 1000);
-#pragma warning restore CA1416 // Validate platform compatibility
-}
-catch (Exception ex) when (ex is PlatformNotSupportedException or ArgumentOutOfRangeException)
-{
-    Console.WriteLine("For best experience, resize your terminal to 80x25.");
-    Console.WriteLine("Press any key to continue...");
-    Console.ReadKey(true);
-}
-
 Console.ForegroundColor = ConsoleColor.Cyan;
 
 // Title screen fixed width, no word wrap by design. :-)
